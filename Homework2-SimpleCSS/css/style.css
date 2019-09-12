@@ -1,0 +1,81 @@
+body{
+  /* Lucida Grande font with a sans-serif fallback */
+  font-family: Lucida Grande, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+h1{
+  /* h1 is 64px and centered*/
+  font-size: 64px;
+  font-weight: bold;
+  margin: 0px;
+}
+h2{
+    /*Header 2 is 32px, with “black” drop shadow that is offset 4px horizontally, 4px vertically, and 2px blur*/
+    font-size: 32px;
+    text-shadow: 4px 4px 2px black;
+}
+
+p{
+  /* p is 16px with 15px padding on the top only*/
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+div{
+    /*All divs must be at least 100px tall (but will automatically be taller if needed) with 30px padding on all sides.*/
+    min-height: 100px;
+    padding: 30px;
+    
+}
+div h2 {
+    margin: 0px;
+}
+
+div p {
+    margin: 0px;
+}
+#red{
+    background-color: red;
+    text-align: right;
+}
+#blue{
+    background-color: blue;
+    text-align: left;
+}
+#yellow{
+    background-color: yellow;
+    color: black;
+    text-align: right;
+}
+#yellow h2 {
+    text-shadow: 4px 4px 2px grey;
+}
+#green{
+    background-color: green;
+    text-align: left;
+}
+#intro {
+    text-align: left;
+}
+
+img{
+  /* All images are on their own line, All images are centered, All images are 550px wide with proper aspect ratio (they are not warped or stretched) */
+    height: auto;
+    width: 550px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+
+
+}
+
